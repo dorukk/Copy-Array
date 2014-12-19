@@ -1,0 +1,17 @@
+ int[] array = { 351, 31, 316, 321, 33, 15675, 26, 2098, 3333, 1,-542};
+
+            Array.Sort(array);
+
+            Console.WriteLine("Min Number:" + array[0]);
+
+            Console.WriteLine("Max Number:" + array[array.Length - 1]);
+
+            Console.WriteLine("Min Number:" + array.Min());//Exactly the same
+
+            Console.WriteLine("Max Number:" + array.Max());
+
+
+
+
+
+            Console.ReadLine();        

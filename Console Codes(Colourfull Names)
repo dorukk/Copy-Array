@@ -1,0 +1,16 @@
+string[] array = { "asda", "adfasd", "asdafsde", "asdfase" };
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                }
+
+                Console.Write(array[i]);
+            }
+ 
+            Console.ReadLine();        
